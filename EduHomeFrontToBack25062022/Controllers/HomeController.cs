@@ -22,6 +22,8 @@ namespace EduHomeFrontToBack25062022.Controllers
             homeVM.NoticeRightSides= _context.NoticeRightSides.ToList();
             homeVM.Choose = _context.Chooses.FirstOrDefault();
 
+
+           
             return View(homeVM);
         }
     }

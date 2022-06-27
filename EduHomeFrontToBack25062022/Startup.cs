@@ -41,6 +41,7 @@ namespace EduHomeFrontToBack25062022
             }
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseDefaultFiles();
 
             app.UseEndpoints(endpoints =>
             {
@@ -50,6 +51,7 @@ namespace EduHomeFrontToBack25062022
                     "{controller=home}/{action=Index}/{Id?}"
                     );
             });
+
         }
     }
 }

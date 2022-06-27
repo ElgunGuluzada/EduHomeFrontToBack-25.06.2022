@@ -124,3 +124,6 @@ D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\bin\Debug\n
 D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PagesLayout.cshtml.g.cs
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Course\Index.cshtml.g.cs
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Course\Default.cshtml.g.cs

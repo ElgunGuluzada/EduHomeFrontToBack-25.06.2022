@@ -14,5 +14,7 @@ namespace EduHomeFrontToBack25062022.DAL
         public DbSet<NoticeLeftSide> NoticeLeftSides { get; set; }
         public DbSet<NoticeRightSide> NoticeRightSides { get; set; }
         public DbSet<Choose> Chooses { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

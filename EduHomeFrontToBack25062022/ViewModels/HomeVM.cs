@@ -10,5 +10,7 @@ namespace EduHomeFrontToBack25062022.ViewModels
         public List<NoticeLeftSide> NoticeLeftSides { get; set; }
         public List<NoticeRightSide> NoticeRightSides { get; set; }
         public Choose Choose { get; set; }
+        public List<Course> Courses { get; set; }
+        public List<Category> Categories { get; set; }
     }
 }

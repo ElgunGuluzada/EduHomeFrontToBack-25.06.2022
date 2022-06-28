@@ -27,6 +27,8 @@ namespace EduHomeFrontToBack25062022.Controllers
         {
             ViewBag.Name = "EVENT";
 
+            
+
             if (id==null)
             {
                 return NotFound();

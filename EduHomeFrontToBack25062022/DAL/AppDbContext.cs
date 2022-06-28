@@ -18,5 +18,8 @@ namespace EduHomeFrontToBack25062022.DAL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Writer> Writers { get; set; }
+
     }
 }

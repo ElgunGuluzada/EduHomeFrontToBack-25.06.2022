@@ -16,5 +16,7 @@ namespace EduHomeFrontToBack25062022.DAL
         public DbSet<Choose> Chooses { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
     }
 }

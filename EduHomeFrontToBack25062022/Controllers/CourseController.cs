@@ -18,6 +18,7 @@ namespace EduHomeFrontToBack25062022.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Name = "Courses";
             CourseVM courseVM = new CourseVM(); 
             courseVM.Courses=_context.Courses.Include(cat=>cat.Category).ToList();
             courseVM.Categories=_context.Categories.ToList(); 

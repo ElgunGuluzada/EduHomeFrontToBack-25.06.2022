@@ -1,4 +1,6 @@
-﻿namespace EduHomeFrontToBack25062022.Models
+﻿using System.Collections.Generic;
+
+namespace EduHomeFrontToBack25062022.Models
 {
     public class Category
     {
@@ -6,5 +8,6 @@
         public int courseId { get; set; }
         public Course Course { get; set; }
         public string Name { get; set; }
+        public List<TeacherCategories> TeacherCategories { get; set; }
     }
 }

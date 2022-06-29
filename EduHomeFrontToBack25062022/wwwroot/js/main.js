@@ -1,6 +1,22 @@
 (function ($) {
 "use strict";  
-    
+    // search
+    let controller = $('.contName').val();
+    console.log(controller)
+
+    $(document).on("keyup", "#input-search", function () {
+        let inputValue = $(this).val();
+        $("#searchList li").slice(1).remove();
+        $.ajax({
+            url: controller+"/search?search=" + inputValue,
+            method: "get",
+            success: function (res) {
+                $("#searchList").append(res);
+            }
+        })
+    })
+    // search End
+
 /*------------------------------------
 	Sticky Menu 
 --------------------------------------*/

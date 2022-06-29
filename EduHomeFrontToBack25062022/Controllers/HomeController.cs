@@ -1,6 +1,8 @@
 ﻿using EduHomeFrontToBack25062022.DAL;
+using EduHomeFrontToBack25062022.Models;
 using EduHomeFrontToBack25062022.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace EduHomeFrontToBack25062022.Controllers
@@ -21,10 +23,23 @@ namespace EduHomeFrontToBack25062022.Controllers
             homeVM.NoticeLeftSides= _context.NoticeLeftSides.ToList();
             homeVM.NoticeRightSides= _context.NoticeRightSides.ToList();
             homeVM.Choose = _context.Chooses.FirstOrDefault();
-
-
-           
             return View(homeVM);
         }
+        public IActionResult Search(string search)
+        {
+           List<Course> courses =  new List<Course>();   
+            if (search != null)
+            {
+                courses = _context.Courses
+                .OrderBy(c => c.Id)
+                .Where(c => c.Name.ToLower()
+                .Contains(search.ToLower()))
+                .Take(5)
+                .ToList();
+            }
+            //return Content("Ok");
+            return PartialView("_SearchCoursePartial", courses);
+        }
+
     }
 }

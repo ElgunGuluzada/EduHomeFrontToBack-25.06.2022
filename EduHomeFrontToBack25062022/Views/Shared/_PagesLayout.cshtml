@@ -109,7 +109,7 @@
                                         </ul>
                                     </nav>
                                 </div>
-                                <!--Search Form Start-->
+                               <!--Search Form Start-->
                                 <div class="search-btn">
                                     <ul data-toggle="dropdown" class="header-search search-toggle">
                                         <li class="search-menu">
@@ -117,13 +117,18 @@
                                         </li>
                                     </ul>
                                     <div class="search">
-                                        <div class="search-form">
+                                        <div style="min-width:220px" class="search-form">
+                                            <ul style="height: 430px;min-width:220px; max-width:240px; overflow:auto" id="searchList">
                                             <form id="search-form" action="#">
-                                                <input type="search" placeholder="Search here..." name="search" />
-                                                <button type="submit">
-                                                    <span><i class="fa fa-search"></i></span>
-                                                </button>
-                                            </form>                                
+                                                <li>
+                                                     <input id="input-search" type="search" placeholder="Search here..." name="search" />
+                                                     <button type="submit">
+                                                     <span><i class="fa fa-search"></i></span>
+                                                     </button>
+                                                </li>
+                                            </form>    
+                                            </ul>
+                                                                       
                                         </div>
                                     </div>
                                 </div>	
@@ -271,3 +276,6 @@
 
 <!-- Mirrored from demo.devitems.com/eduhome/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jun 2020 19:44:03 GMT -->
 </html>
+
+        <script src="js/bootstrap.min.js"></script>
+

@@ -133,3 +133,7 @@ D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\n
 D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
 D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Blog\Default.cshtml.g.cs
 D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\SideBlog\Default.cshtml.g.cs
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Event\Default.cshtml.g.cs
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchTeacherPartial.cshtml.g.cs
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchBlogPartial.cshtml.g.cs
+D:\Asp.NetCore\EduHomeFrontToBack25062022\EduHomeFrontToBack25062022\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchCoursePartial.cshtml.g.cs
